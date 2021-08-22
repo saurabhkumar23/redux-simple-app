@@ -5,8 +5,8 @@ function Balls(props) {
     return (
         <div>
             <h1>we have {props.balls} balls</h1>
-            <button onClick={props.incballs}>increase</button>
-            <button onClick={props.decballs}>decrease</button>
+            <button onClick={props.incballs}>increment</button>
+            <button onClick={props.decballs}>decrement</button>
         </div>
     )
 }
